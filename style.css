@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: calibri;
+    color: white;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #870000 ,  #190A05);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+::selection{
+    background-color: purple;
+}
+
+#hdr{
+    background-color: rgb(99, 73, 73);
+    height: 52px;
+    border-radius: 6px;
+}
+
+ul{
+    cursor: pointer;
+    height: 52px;
+}
+
+ul li{
+    transition: all ease 0.4s;
+}
+
+.trans:hover{
+    background-color: rgb(119, 98, 98);
+    transition: all ease 0.4s;
+}
+
+#one:hover{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#five:hover{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.trans:active{
+    background-color: rgb(136, 85, 85);
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 2px black solid;
+    height: 52px;
+    padding-left: 12px;
+}
+
+li p{
+    display: inline-block;
+    padding-right: 13px;
+    font-size: 22px;
+    padding-left: 6px;
+}
+
+li i{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1768px) {
+    header{
+        zoom: 1.4;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 1468px) {
+    header{
+        zoom: 1.3;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        zoom: 1.2;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    header{
+        zoom: 1;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    header{
+        zoom: 0.9;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 648px) {
+    header{
+        zoom: 0.8;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    header{
+        zoom: 0.7;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    header{
+        zoom: 0.6;
+    }
+
+    li i{
+        margin-top: 17px;
+    }
+}
